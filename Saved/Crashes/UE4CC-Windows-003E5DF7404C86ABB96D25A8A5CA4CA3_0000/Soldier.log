@@ -1,0 +1,643 @@
+﻿Log file open, 11/02/17 10:57:28
+LogInit:Display: Running engine for game: Soldier
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(780783213) SRandInit(780783213).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.090959
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.01-23.57.28:969][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.01-23.57.28:969][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.01-23.57.28:980][  0]LogInit: Computer: RICARDOPC
+[2017.11.01-23.57.28:980][  0]LogInit: User: RicardoB
+[2017.11.01-23.57.28:980][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.01-23.57.28:980][  0]LogInit: High frequency timer resolution =3.410237 MHz
+[2017.11.01-23.57.28:980][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.01-23.57.28:980][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.01-23.57.28:980][  0]LogMemory: Process Physical Memory: 271.03 MB used, 271.03 MB peak
+[2017.11.01-23.57.28:980][  0]LogMemory: Process Virtual Memory: 260.61 MB used, 260.61 MB peak
+[2017.11.01-23.57.28:981][  0]LogMemory: Physical Memory: 6659.36 MB used,  9662.77 MB free, 16322.13 MB total
+[2017.11.01-23.57.28:981][  0]LogMemory: Virtual Memory: 617.14 MB used,  9662.77 MB free, 134217728.00 MB total
+[2017.11.01-23.57.29:050][  0]LogInit: Using OS detected language (en-GB).
+[2017.11.01-23.57.29:050][  0]LogInit: Using OS detected locale (en-AU).
+[2017.11.01-23.57.29:052][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.11.01-23.57.29:908][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.01-23.57.29:929][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2017.11.01-23.57.29:929][  0]LogD3D11RHI:       2939/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.01-23.57.29:930][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.01-23.57.29:930][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.01-23.57.29:930][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.01-23.57.29:933][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.01-23.57.29:933][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.01-23.57.29:933][  0]LogWindows: EnumDisplayDevices:
+[2017.11.01-23.57.29:933][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2017.11.01-23.57.29:934][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:1)
+[2017.11.01-23.57.29:934][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.11.01-23.57.29:934][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.11.01-23.57.29:934][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.01-23.57.29:934][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2017.11.01-23.57.29:934][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.11.01-23.57.29:934][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.11.01-23.57.29:934][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.01-23.57.29:949][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.01-23.57.29:966][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.11.01-23.57.30:063][  0]LogShaderCompilers: Guid format shader working directory is 10 characters bigger than the processId version (../../../../UE4MajorProject/ue4-soldier/Intermediate/Shaders/WorkingDirectory/6752/).
+[2017.11.01-23.57.30:063][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/RicardoB/AppData/Local/Temp/UnrealShaderWorkingDir/93EAC9A340004F90AC143C9ABC2B6408/'.
+[2017.11.01-23.57.30:063][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.01-23.57.31:078][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.01-23.57.31:125][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.01-23.57.31:171][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.01-23.57.31:218][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.01-23.57.31:266][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.01-23.57.31:316][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.01-23.57.31:362][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.01-23.57.31:409][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.01-23.57.31:452][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.01-23.57.31:498][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.01-23.57.31:544][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.01-23.57.31:595][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.01-23.57.31:647][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.01-23.57.31:695][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.01-23.57.31:740][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.01-23.57.31:834][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.01-23.57.31:834][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.01-23.57.31:875][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.01-23.57.31:965][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.01-23.57.32:009][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.01-23.57.32:065][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.01-23.57.32:112][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.01-23.57.32:158][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.01-23.57.32:205][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.01-23.57.32:205][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.01-23.57.32:661][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.01-23.57.32:748][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/RicardoB/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.01-23.57.32:748][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/RicardoB/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.01-23.57.32:748][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UE4MajorProject/ue4-soldier/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.01-23.57.32:748][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.01-23.57.32:748][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../UE4MajorProject/ue4-soldier/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.01-23.57.32:748][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.01-23.57.32:765][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.01-23.57.32:777][  0]LogDerivedDataCache: Using Local data cache path C:/Users/RicardoB/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.01-23.57.32:787][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.01-23.57.32:787][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.01-23.57.32:788][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.01-23.57.32:788][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.01-23.57.33:135][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.01-23.57.33:209][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.01-23.57.33:361][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.01-23.57.33:402][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.01-23.57.33:444][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.01-23.57.33:444][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.01-23.57.33:444][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.01-23.57.33:984][  0]LogNetVersion: Soldier , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 372283363)
+[2017.11.01-23.57.34:046][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2017.11.01-23.57.34:092][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.025156 seconds
+[2017.11.01-23.57.34:098][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.01-23.57.34:098][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.11.01-23.57.34:098][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.01-23.57.34:159][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.01-23.57.36:484][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.01-23.57.36:523][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.01-23.57.37:047][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.01-23.57.37:478][  0]SourceControl: Info Source control is disabled
+[2017.11.01-23.57.37:493][  0]SourceControl: Info Source control is disabled
+[2017.11.01-23.57.37:542][  0]SourceControl: Info Source control is disabled
+[2017.11.01-23.57.37:589][  0]SourceControl: Info Source control is disabled
+[2017.11.01-23.57.38:354][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.01-23.57.39:063][  0]LogEngine: Initializing Engine...
+[2017.11.01-23.57.39:063][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.01-23.57.39:336][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.01-23.57.39:336][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.01-23.57.39:473][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.01-23.57.39:485][  0]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.01-23.57.39:497][  0]LogInit: FAudioDevice initialized.
+[2017.11.01-23.57.39:546][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/RicardoB/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.01-23.57.39:556][  0]LogInit: Texture streaming: Enabled
+[2017.11.01-23.57.39:692][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.01-23.57.39:967][  0]LogInit: Transaction tracking system initialized
+[2017.11.01-23.57.40:309][  0]BlueprintLog: New page: Editor Load
+[2017.11.01-23.57.41:276][  0]LocalizationService: Info Localization service is disabled
+[2017.11.01-23.57.41:936][  0]LogConsoleResponse:Display: 
+[2017.11.01-23.57.42:084][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.01-23.57.42:084][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.01-23.57.43:010][  0]LogFileCache: Scanning file cache for directory 'C:/UE4MajorProject/ue4-soldier/Content/' took 0.02s
+[2017.11.01-23.57.43:053][  0]SourceControl: Info Source control is disabled
+[2017.11.01-23.57.43:053][  0]Cmd: MAP LOAD FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.01-23.57.43:053][  0]LightingResults: New page: Lighting Build
+[2017.11.01-23.57.43:091][  0]MapCheck: New page: Map Check
+[2017.11.01-23.57.43:091][  0]LightingResults: New page: Lighting Build
+[2017.11.01-23.57.43:817][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.01-23.57.43:828][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.01-23.57.43:847][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.01-23.57.43:903][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.109ms to complete.
+[2017.11.01-23.57.43:903][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.850
+[2017.11.01-23.57.44:056][  0]LogCollectionManager: Loaded 0 collections in 0.001419 seconds
+[2017.11.01-23.57.44:137][  0]LogFileCache: Scanning file cache for directory 'C:/UE4MajorProject/ue4-soldier/Saved/Collections/' took 0.01s
+[2017.11.01-23.57.44:137][  0]LogFileCache: Scanning file cache for directory 'C:/UE4MajorProject/ue4-soldier/Content/Developers/RicardoB/Collections/' took 0.01s
+[2017.11.01-23.57.44:137][  0]LogFileCache: Scanning file cache for directory 'C:/UE4MajorProject/ue4-soldier/Content/Collections/' took 0.01s
+[2017.11.01-23.57.44:137][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.01-23.57.44:147][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2329 classes and 491 folders.
+[2017.11.01-23.57.44:209][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.11.01-23.57.44:242][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.11.01-23.57.44:283][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.11.01-23.57.44:323][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.01-23.57.44:327][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.01-23.57.44:329][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.01-23.57.44:333][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.01-23.57.44:434][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.11.01-23.57.44:574][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.01-23.57.44:635][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.01-23.57.44:635][  0]LogLoad: (Engine Initialization) Total time: 17.06 seconds
+[2017.11.01-23.57.44:635][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.26 seconds
+[2017.11.01-23.57.44:635][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.01-23.57.44:975][  0]LogOcInput: OculusInput pre-init called
+[2017.11.01-23.57.44:975][  0]LogHMD: Starting GearVRController plugin
+[2017.11.01-23.57.45:023][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.01-23.57.45:089][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.01-23.57.45:337][  1]LogAssetRegistry: Asset discovery search completed in 11.3137 seconds
+[2017.11.01-23.57.45:339][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.01-23.57.45:339][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2017.11.01-23.57.50:641][ 17]LogFileCache: Retrieving MD5 hashes for directory 'C:/UE4MajorProject/ue4-soldier/Content/' took 5.65s
+[2017.11.01-23.59.25:319][534]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.01-23.59.25:851][534]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.11.01-23.59.26:723][534]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.01-23.59.26:729][534]LogSlate: Took 0.004751 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.01-23.59.53:247][954]LogSlate: Took 0.001984 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.02-00.01.39:873][987]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.11.02-00.01.40:624][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2017.11.02-00.01.40:837][997]LogSavePackage: Save=199.57ms
+[2017.11.02-00.01.40:837][997]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/ThirdPersonCharacter2847B256461BE9C2EA3876A776C688CE.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.11.02-00.01.40:840][997]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.11.02-00.02.55:975][676]LogEditorTransaction: Undo Move Node
+[2017.11.02-00.03.08:743][796]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.11.02-00.03.09:484][796]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.02-00.03.09:547][796]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.03.09:547][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.02-00.03.09:548][796]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 10:03:09 pm)
+[2017.11.02-00.03.09:548][796]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-00.03.09:571][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023353s)
+[2017.11.02-00.03.09:572][796]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-00.03.09:572][796]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2017.11.02-00.03.09:572][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024482s)
+[2017.11.02-00.03.09:691][796]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-00.03.09:701][796]LogInit: FAudioDevice initialized.
+[2017.11.02-00.03.09:774][796]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.02-00.03.09:778][796]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-11.03.09
+[2017.11.02-00.03.09:778][796]LogWorld: Bringing up level for play took: 0.002692
+[2017.11.02-00.03.09:820][796]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.11.02-00.03.09:822][796]PIE:Warning: Warning The widget 'WBCrosshair_C' was already added to the screen.
+[2017.11.02-00.03.09:824][796]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.33
+[2017.11.02-00.03.09:825][796]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.03.10:004][796]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.11.02-00.03.12:896][978]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.03.12:965][978]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.03.22:808][933]BlueprintLog: New page: Compile FPSHUD
+[2017.11.02-00.03.23:029][933]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.02-00.03.23:529][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/FPSHUD" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/FPSHUD.uasset" SILENT=true
+[2017.11.02-00.03.23:589][975]LogSavePackage: Save=48.77ms
+[2017.11.02-00.03.23:589][975]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/FPSHUD1423D2474CC7A0F0B9874FAA579AAD3B.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/FPSHUD.uasset'
+[2017.11.02-00.03.23:590][975]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/FPSHUD.uasset
+[2017.11.02-00.03.26:363][266]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.02-00.03.26:385][266]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.03.26:385][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.02-00.03.26:385][266]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 10:03:26 pm)
+[2017.11.02-00.03.26:385][266]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-00.03.26:409][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023247s)
+[2017.11.02-00.03.26:410][266]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-00.03.26:410][266]LogPlayLevel: PIE: World Init took: (0.001405s)
+[2017.11.02-00.03.26:410][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024972s)
+[2017.11.02-00.03.26:439][266]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-00.03.26:449][266]LogInit: FAudioDevice initialized.
+[2017.11.02-00.03.26:485][266]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.02-00.03.26:488][266]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-11.03.26
+[2017.11.02-00.03.26:489][266]LogWorld: Bringing up level for play took: 0.002510
+[2017.11.02-00.03.26:491][266]PIE:Warning: Warning The widget 'WBCrosshair_C' was already added to the screen.
+[2017.11.02-00.03.26:491][266]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.996
+[2017.11.02-00.03.26:491][266]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.03.30:875][778]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+	Weapon_Base_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Weapon_Base_C_0
+	Function /Game/ThirdPersonBP/Blueprints/Weapons/AK-47/Weapon_Base.Weapon_Base_C:Reload:01C0
+[2017.11.02-00.03.30:875][778]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2 from function: 'Reload' from node: Return Node in graph: Reload in object: Weapon_Base with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+[2017.11.02-00.03.38:076][616]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.03.38:130][616]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.03.38:844][641]LogSavePackage: Save=164.91ms
+[2017.11.02-00.03.38:844][641]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/ThirdPersonExampleMap4ACC36FF4F1ABBCBE30A5596807DDE33.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.11.02-00.03.38:848][641]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.11.02-00.03.39:076][641]LogSavePackage: Save=173.68ms
+[2017.11.02-00.03.39:076][641]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/ThirdPersonExampleMap_BuiltDataC27F60D0411341BFA0C1CCA437FEB2C1.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.11.02-00.03.39:079][641]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.11.02-00.03.57:898][772]BlueprintLog: New page: Compile WBCrosshair
+[2017.11.02-00.03.58:061][772]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.02-00.03.59:017][881]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.02-00.03.59:039][881]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.03.59:039][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.02-00.03.59:039][881]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 10:03:59 pm)
+[2017.11.02-00.03.59:039][881]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-00.03.59:063][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023412s)
+[2017.11.02-00.03.59:064][881]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-00.03.59:064][881]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2017.11.02-00.03.59:064][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024699s)
+[2017.11.02-00.03.59:091][881]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-00.03.59:100][881]LogInit: FAudioDevice initialized.
+[2017.11.02-00.03.59:152][881]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.02-00.03.59:156][881]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-11.03.59
+[2017.11.02-00.03.59:156][881]LogWorld: Bringing up level for play took: 0.002466
+[2017.11.02-00.03.59:158][881]PIE:Warning: Warning The widget 'WBCrosshair_C' was already added to the screen.
+[2017.11.02-00.03.59:161][881]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.333
+[2017.11.02-00.03.59:162][881]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.04.04:520][385]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+	Weapon_Base_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Weapon_Base_C_0
+	Function /Game/ThirdPersonBP/Blueprints/Weapons/AK-47/Weapon_Base.Weapon_Base_C:Reload:01C0
+[2017.11.02-00.04.04:520][385]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2 from function: 'Reload' from node: Return Node in graph: Reload in object: Weapon_Base with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+[2017.11.02-00.04.11:049][999]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+	Weapon_Base_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Weapon_Base_C_0
+	Function /Game/ThirdPersonBP/Blueprints/Weapons/AK-47/Weapon_Base.Weapon_Base_C:Reload:01C0
+[2017.11.02-00.04.11:049][999]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2 from function: 'Reload' from node: Return Node in graph: Reload in object: Weapon_Base with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+[2017.11.02-00.04.14:750][344]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.04.14:803][344]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.04.23:656][278]BlueprintLog: New page: Compile WBCrosshair
+[2017.11.02-00.04.23:838][278]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.11.02-00.04.24:981][406]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.02-00.04.25:003][406]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.04.25:003][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.02-00.04.25:004][406]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 10:04:25 pm)
+[2017.11.02-00.04.25:004][406]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-00.04.25:025][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021289s)
+[2017.11.02-00.04.25:026][406]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-00.04.25:026][406]LogPlayLevel: PIE: World Init took: (0.001176s)
+[2017.11.02-00.04.25:026][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022775s)
+[2017.11.02-00.04.25:053][406]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-00.04.25:063][406]LogInit: FAudioDevice initialized.
+[2017.11.02-00.04.25:112][406]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.02-00.04.25:115][406]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-11.04.25
+[2017.11.02-00.04.25:115][406]LogWorld: Bringing up level for play took: 0.002650
+[2017.11.02-00.04.25:117][406]PIE:Warning: Warning The widget 'WBCrosshair_C' was already added to the screen.
+[2017.11.02-00.04.25:121][406]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.374
+[2017.11.02-00.04.25:121][406]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.04.27:077][585]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+	Weapon_Base_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Weapon_Base_C_0
+	Function /Game/ThirdPersonBP/Blueprints/Weapons/AK-47/Weapon_Base.Weapon_Base_C:Reload:01C0
+[2017.11.02-00.04.27:077][585]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2 from function: 'Reload' from node: Return Node in graph: Reload in object: Weapon_Base with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+[2017.11.02-00.04.34:214][248]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+	Weapon_Base_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Weapon_Base_C_0
+	Function /Game/ThirdPersonBP/Blueprints/Weapons/AK-47/Weapon_Base.Weapon_Base_C:Reload:01C0
+[2017.11.02-00.04.34:214][248]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2 from function: 'Reload' from node: Return Node in graph: Reload in object: Weapon_Base with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+[2017.11.02-00.04.36:109][420]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.04.36:158][420]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.06.30:256][ 44]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.11.02-00.06.30:876][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2017.11.02-00.06.31:080][ 45]LogSavePackage: Save=196.41ms
+[2017.11.02-00.06.31:080][ 45]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/ThirdPersonCharacter1DAE25054316D84B9290B996C45FABAE.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.11.02-00.06.31:082][ 45]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.11.02-00.06.31:220][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2017.11.02-00.06.31:417][ 53]LogSavePackage: Save=191.93ms
+[2017.11.02-00.06.31:417][ 53]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/ThirdPersonCharacter162BB3CC4C621BC09EED67B44B37CA44.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.11.02-00.06.31:419][ 53]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.11.02-00.06.59:357][725]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.11.02-00.07.00:375][771]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.02-00.07.00:400][771]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.07.00:400][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.02-00.07.00:400][771]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 10:07:00 pm)
+[2017.11.02-00.07.00:400][771]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-00.07.00:423][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022720s)
+[2017.11.02-00.07.00:424][771]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-00.07.00:425][771]LogPlayLevel: PIE: World Init took: (0.001440s)
+[2017.11.02-00.07.00:425][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024457s)
+[2017.11.02-00.07.00:453][771]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-00.07.00:462][771]LogInit: FAudioDevice initialized.
+[2017.11.02-00.07.00:519][771]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.02-00.07.00:522][771]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-11.07.00
+[2017.11.02-00.07.00:523][771]LogWorld: Bringing up level for play took: 0.002548
+[2017.11.02-00.07.00:524][771]PIE:Warning: Warning The widget 'WBCrosshair_C' was already added to the screen.
+[2017.11.02-00.07.00:532][771]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.037
+[2017.11.02-00.07.00:532][771]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.07.17:865][305]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.07.17:937][305]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.07.18:426][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2017.11.02-00.07.18:656][323]LogSavePackage: Save=215.97ms
+[2017.11.02-00.07.18:656][323]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/ThirdPersonCharacter31D64D2F4DC81655DCF19CA505155C0D.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.11.02-00.07.18:658][323]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.11.02-00.08.01:617][480]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.02-00.08.01:643][480]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.08.01:643][480]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.02-00.08.01:643][480]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 10:08:01 pm)
+[2017.11.02-00.08.01:643][480]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-00.08.01:664][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020552s)
+[2017.11.02-00.08.01:665][480]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-00.08.01:665][480]LogPlayLevel: PIE: World Init took: (0.001203s)
+[2017.11.02-00.08.01:665][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022052s)
+[2017.11.02-00.08.01:693][480]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-00.08.01:702][480]LogInit: FAudioDevice initialized.
+[2017.11.02-00.08.01:764][480]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.02-00.08.01:767][480]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-11.08.01
+[2017.11.02-00.08.01:767][480]LogWorld: Bringing up level for play took: 0.002568
+[2017.11.02-00.08.01:769][480]PIE:Warning: Warning The widget 'WBCrosshair_C' was already added to the screen.
+[2017.11.02-00.08.01:777][480]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.282
+[2017.11.02-00.08.01:778][480]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.08.07:061][950]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+	Weapon_Base_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Weapon_Base_C_0
+	Function /Game/ThirdPersonBP/Blueprints/Weapons/AK-47/Weapon_Base.Weapon_Base_C:Reload:01C0
+[2017.11.02-00.08.07:061][950]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2 from function: 'Reload' from node: Return Node in graph: Reload in object: Weapon_Base with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+[2017.11.02-00.08.21:275][242]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.08.21:345][242]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.09.59:754][903]BlueprintLog: New page: Compile BP_RifleAmmoPickUp
+[2017.11.02-00.10.00:515][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset" SILENT=true
+[2017.11.02-00.10.00:533][944]LogSavePackage: Save=15.93ms
+[2017.11.02-00.10.00:533][944]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/BP_RifleAmmoPickUpD18E25C5484DAFDAAD752D8F24B3F98C.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset'
+[2017.11.02-00.10.00:535][944]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset
+[2017.11.02-00.10.12:512][218]LogSavePackage: Save=169.87ms
+[2017.11.02-00.10.12:512][218]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/ThirdPersonExampleMapDBD551E34362F7BAFAEF53B9C0BB9D39.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.11.02-00.10.12:514][218]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.11.02-00.10.12:675][218]LogSavePackage: Save=119.20ms
+[2017.11.02-00.10.12:675][218]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/ThirdPersonExampleMap_BuiltData094135914E65E9356BBC16A1A504752E.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.11.02-00.10.12:676][218]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.11.02-00.10.17:699][795]BlueprintLog: New page: Compile BP_RifleAmmoPickUp
+[2017.11.02-00.10.18:178][824]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset" SILENT=true
+[2017.11.02-00.10.18:205][824]LogSavePackage: Save=15.90ms
+[2017.11.02-00.10.18:205][824]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/BP_RifleAmmoPickUpA309E55D4E8B3013808E54A3F998EB91.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset'
+[2017.11.02-00.10.18:206][824]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset
+[2017.11.02-00.10.32:219][305]BlueprintLog: New page: Compile BP_RifleAmmoPickUp
+[2017.11.02-00.10.32:727][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset" SILENT=true
+[2017.11.02-00.10.32:748][340]LogSavePackage: Save=14.80ms
+[2017.11.02-00.10.32:748][340]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/BP_RifleAmmoPickUp6967328F40EC89073DF628B8C6B04BC0.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset'
+[2017.11.02-00.10.32:750][340]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset
+[2017.11.02-00.11.03:981][340]BlueprintLog: New page: Compile BP_RifleAmmoPickUp
+[2017.11.02-00.11.04:317][358]BlueprintLog: New page: Compile BP_RifleAmmoPickUp
+[2017.11.02-00.11.05:343][459]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.02-00.11.05:378][459]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.11.05:379][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.02-00.11.05:379][459]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 10:11:05 pm)
+[2017.11.02-00.11.05:379][459]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-00.11.05:400][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020812s)
+[2017.11.02-00.11.05:400][459]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-00.11.05:401][459]LogPlayLevel: PIE: World Init took: (0.001128s)
+[2017.11.02-00.11.05:401][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022302s)
+[2017.11.02-00.11.05:428][459]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-00.11.05:437][459]LogInit: FAudioDevice initialized.
+[2017.11.02-00.11.05:486][459]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.02-00.11.05:489][459]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-11.11.05
+[2017.11.02-00.11.05:490][459]LogWorld: Bringing up level for play took: 0.002641
+[2017.11.02-00.11.05:492][459]PIE:Warning: Warning The widget 'WBCrosshair_C' was already added to the screen.
+[2017.11.02-00.11.05:494][459]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.001
+[2017.11.02-00.11.05:495][459]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.11.12:857][302]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.11.12:936][302]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.11.26:710][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset" SILENT=true
+[2017.11.02-00.11.26:732][520]LogSavePackage: Save=15.52ms
+[2017.11.02-00.11.26:732][520]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/BP_RifleAmmoPickUp41A7DF394B444315CF2BC4A2411B6AB2.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset'
+[2017.11.02-00.11.26:733][520]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset
+[2017.11.02-00.11.27:213][577]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.02-00.11.27:234][577]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.11.27:234][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.02-00.11.27:234][577]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 10:11:27 pm)
+[2017.11.02-00.11.27:234][577]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-00.11.27:259][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025213s)
+[2017.11.02-00.11.27:260][577]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-00.11.27:260][577]LogPlayLevel: PIE: World Init took: (0.001006s)
+[2017.11.02-00.11.27:261][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026538s)
+[2017.11.02-00.11.27:288][577]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-00.11.27:297][577]LogInit: FAudioDevice initialized.
+[2017.11.02-00.11.27:344][577]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.02-00.11.27:348][577]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-11.11.27
+[2017.11.02-00.11.27:348][577]LogWorld: Bringing up level for play took: 0.002473
+[2017.11.02-00.11.27:350][577]PIE:Warning: Warning The widget 'WBCrosshair_C' was already added to the screen.
+[2017.11.02-00.11.27:352][577]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.143
+[2017.11.02-00.11.27:352][577]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.11.31:877][104]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+	Weapon_Base_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Weapon_Base_C_0
+	Function /Game/ThirdPersonBP/Blueprints/Weapons/AK-47/Weapon_Base.Weapon_Base_C:Reload:01C0
+[2017.11.02-00.11.31:877][104]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2 from function: 'Reload' from node: Return Node in graph: Reload in object: Weapon_Base with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+[2017.11.02-00.11.34:809][451]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.11.34:870][451]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.12.55:303][233]BlueprintLog: New page: Compile BP_RifleAmmoPickUp
+[2017.11.02-00.13.17:693][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset" SILENT=true
+[2017.11.02-00.13.17:725][958]LogSavePackage: Save=25.16ms
+[2017.11.02-00.13.17:726][958]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/BP_RifleAmmoPickUp73CC49584B233BBFD954EA82EE8567AA.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset'
+[2017.11.02-00.13.17:727][958]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset
+[2017.11.02-00.13.18:246][ 19]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.02-00.13.18:267][ 19]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.13.18:267][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.02-00.13.18:267][ 19]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 10:13:18 pm)
+[2017.11.02-00.13.18:268][ 19]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-00.13.18:293][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023971s)
+[2017.11.02-00.13.18:293][ 19]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-00.13.18:294][ 19]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2017.11.02-00.13.18:294][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025232s)
+[2017.11.02-00.13.18:324][ 19]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-00.13.18:333][ 19]LogInit: FAudioDevice initialized.
+[2017.11.02-00.13.18:382][ 19]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.02-00.13.18:385][ 19]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-11.13.18
+[2017.11.02-00.13.18:385][ 19]LogWorld: Bringing up level for play took: 0.002473
+[2017.11.02-00.13.18:387][ 19]PIE:Warning: Warning The widget 'WBCrosshair_C' was already added to the screen.
+[2017.11.02-00.13.18:389][ 19]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.894
+[2017.11.02-00.13.18:390][ 19]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.13.21:734][414]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+	Weapon_Base_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Weapon_Base_C_0
+	Function /Game/ThirdPersonBP/Blueprints/Weapons/AK-47/Weapon_Base.Weapon_Base_C:Reload:01C0
+[2017.11.02-00.13.21:734][414]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2 from function: 'Reload' from node: Return Node in graph: Reload in object: Weapon_Base with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+[2017.11.02-00.13.27:698][129]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.13.27:766][129]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.13.41:533][ 74]LogEditorTransaction: Undo Move Node
+[2017.11.02-00.13.42:870][211]BlueprintLog: New page: Compile BP_RifleAmmoPickUp
+[2017.11.02-00.13.43:427][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset" SILENT=true
+[2017.11.02-00.13.43:458][256]LogSavePackage: Save=23.86ms
+[2017.11.02-00.13.43:458][256]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/BP_RifleAmmoPickUp8774748E4918CB832BE1918D8F6FC11A.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset'
+[2017.11.02-00.13.43:459][256]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset
+[2017.11.02-00.13.44:078][329]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.02-00.13.44:099][329]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.13.44:099][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.02-00.13.44:099][329]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 10:13:44 pm)
+[2017.11.02-00.13.44:099][329]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-00.13.44:118][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019071s)
+[2017.11.02-00.13.44:119][329]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-00.13.44:119][329]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2017.11.02-00.13.44:119][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020370s)
+[2017.11.02-00.13.44:145][329]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-00.13.44:154][329]LogInit: FAudioDevice initialized.
+[2017.11.02-00.13.44:204][329]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.02-00.13.44:207][329]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-11.13.44
+[2017.11.02-00.13.44:207][329]LogWorld: Bringing up level for play took: 0.002435
+[2017.11.02-00.13.44:209][329]PIE:Warning: Warning The widget 'WBCrosshair_C' was already added to the screen.
+[2017.11.02-00.13.44:210][329]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.716
+[2017.11.02-00.13.44:211][329]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.13.45:248][447]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+	Weapon_Base_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Weapon_Base_C_0
+	Function /Game/ThirdPersonBP/Blueprints/Weapons/AK-47/Weapon_Base.Weapon_Base_C:Reload:01C0
+[2017.11.02-00.13.45:248][447]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2 from function: 'Reload' from node: Return Node in graph: Reload in object: Weapon_Base with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+[2017.11.02-00.13.49:514][959]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+	Weapon_Base_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Weapon_Base_C_0
+	Function /Game/ThirdPersonBP/Blueprints/Weapons/AK-47/Weapon_Base.Weapon_Base_C:Reload:01C0
+[2017.11.02-00.13.49:514][959]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2 from function: 'Reload' from node: Return Node in graph: Reload in object: Weapon_Base with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character2
+[2017.11.02-00.13.50:215][ 43]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.13.50:272][ 43]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.14.07:809][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset" SILENT=true
+[2017.11.02-00.14.07:833][118]LogSavePackage: Save=17.87ms
+[2017.11.02-00.14.07:833][118]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/BP_RifleAmmoPickUpBDE028B94EA0D6A96195F28AF116C1BC.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset'
+[2017.11.02-00.14.07:835][118]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset
+[2017.11.02-00.14.22:087][670]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.11.02-00.14.22:125][671]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Soldier
+[2017.11.02-00.14.22:125][671]LogTemp: CWD: C:\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.02-00.14.22:125][671]LogTemp: Initial Dir: C:\UE_4.16
+[2017.11.02-00.14.22:125][671]LogTemp: Env CWD: C:\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.02-00.14.22:136][672]LogTemp: BranchPath = RICARDOPC/C/UE_4.16/Engine/Binaries --- GameBranchPath = RICARDOPC/C/UE_4.16/Engine/Binaries
+[2017.11.02-00.14.22:148][672]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\RicardoB\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.11.02-00.18.09:856][212]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.11.02-00.18.10:842][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2017.11.02-00.18.11:054][212]LogSavePackage: Save=197.49ms
+[2017.11.02-00.18.11:054][212]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/ThirdPersonCharacterE0FD321146690061E965C3B5F3F48CB9.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.11.02-00.18.11:056][212]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.11.02-00.18.11:734][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2017.11.02-00.18.11:932][271]LogSavePackage: Save=191.09ms
+[2017.11.02-00.18.11:932][271]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/ThirdPersonCharacterBC10AA794CEC3BA5C4C9E7BEDDB64E64.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.11.02-00.18.11:933][271]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.11.02-00.18.24:421][586]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.11.02-00.18.25:370][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2017.11.02-00.18.25:576][615]LogSavePackage: Save=199.52ms
+[2017.11.02-00.18.25:576][615]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/ThirdPersonCharacterDB5819204D5C0A7A70B3118CE63FE37C.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.11.02-00.18.25:577][615]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.11.02-00.18.49:310][417]BlueprintLog: New page: Compile BP_RifleAmmoPickUp
+[2017.11.02-00.18.49:316][417]LogBlueprint:Error: [Compiler BP_RifleAmmoPickUp] Error This blueprint (self) is not a ThirdPersonCharacter_C, therefore ' Target ' must have a connection.
+[2017.11.02-00.18.49:316][417]LogBlueprint:Error: [Compiler BP_RifleAmmoPickUp] Error Variable node  Set RifleAmmoPickUp  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.11.02-00.18.49:538][417]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a ThirdPersonCharacter_C, therefore ' Target ' must have a connection.
+[2017.11.02-00.18.49:538][417]BlueprintEditorCompileResults:Error: Error Variable node  Set RifleAmmoPickUp  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.11.02-00.18.49:538][417]LogBlueprint:Warning: [Compiler BP_RifleAmmoPickUp] Warning [1281.96] Compile of BP_RifleAmmoPickUp failed. 2 Fatal Issue(s) 0 Warning(s) [in 227 ms] (/Game/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.BP_RifleAmmoPickUp)
+[2017.11.02-00.18.50:067][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset" SILENT=true
+[2017.11.02-00.18.50:104][473]LogSavePackage: Save=25.12ms
+[2017.11.02-00.18.50:104][473]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/BP_RifleAmmoPickUp67E8FAC54DF23A4D5551D9AB7AB36973.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset'
+[2017.11.02-00.18.50:106][473]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset
+[2017.11.02-00.18.54:161][948]BlueprintLog: New page: Compile BP_RifleAmmoPickUp
+[2017.11.02-00.18.54:953][ 20]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset" SILENT=true
+[2017.11.02-00.18.54:985][ 20]LogSavePackage: Save=25.23ms
+[2017.11.02-00.18.54:985][ 20]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/BP_RifleAmmoPickUp5FF2F2284F0582668FB3D3B543A43AFF.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset'
+[2017.11.02-00.18.54:986][ 20]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset
+[2017.11.02-00.18.59:245][526]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset" SILENT=true
+[2017.11.02-00.18.59:269][526]LogSavePackage: Save=18.19ms
+[2017.11.02-00.18.59:269][526]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/BP_RifleAmmoPickUp3F200309478966E8E6BB5890FCA883F1.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset'
+[2017.11.02-00.18.59:271][526]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/BP_RifleAmmoPickUp.uasset
+[2017.11.02-00.19.49:665][296]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.11.02-00.19.53:753][711]BlueprintLog: New page: Compile BP_RifleAmmoPickUp
+[2017.11.02-00.20.11:946][711]LogEditorTransaction: Undo Delete current selection
+[2017.11.02-00.20.37:710][509]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.11.02-00.20.37:773][509]LogBlueprint:Error: [Compiler ThirdPersonCharacter] Error This blueprint (self) is not a Weapon_Base_C, therefore ' Target ' must have a connection.
+[2017.11.02-00.20.37:773][509]LogBlueprint:Error: [Compiler ThirdPersonCharacter] Error Variable node  Set MaxAmmo  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.11.02-00.20.38:273][509]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Weapon_Base_C, therefore ' Target ' must have a connection.
+[2017.11.02-00.20.38:273][509]BlueprintEditorCompileResults:Error: Error Variable node  Set MaxAmmo  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.11.02-00.20.38:273][509]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [1390.70] Compile of ThirdPersonCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 563 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.11.02-00.20.38:635][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2017.11.02-00.20.38:838][528]LogSavePackage: Save=196.94ms
+[2017.11.02-00.20.38:838][528]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/ThirdPersonCharacter61D4DEEF4510346AFACA1184105FB60B.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.11.02-00.20.38:840][528]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.11.02-00.20.48:859][662]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.11.02-00.20.50:150][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2017.11.02-00.20.50:368][740]LogSavePackage: Save=210.57ms
+[2017.11.02-00.20.50:368][740]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/ThirdPersonCharacterAA88AECD4CB6ECA37F209F8C8CC4A483.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.11.02-00.20.50:370][740]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.11.02-00.20.50:827][792]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.02-00.20.50:853][792]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.20.50:853][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.02-00.20.50:853][792]PIE: New page: PIE session: ThirdPersonExampleMap (2 Nov 2017 10:20:50 pm)
+[2017.11.02-00.20.50:854][792]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.02-00.20.50:872][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018795s)
+[2017.11.02-00.20.50:873][792]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.02-00.20.50:873][792]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2017.11.02-00.20.50:874][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020160s)
+[2017.11.02-00.20.50:898][792]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.02-00.20.50:909][792]LogInit: FAudioDevice initialized.
+[2017.11.02-00.20.50:962][792]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.02-00.20.50:965][792]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.02-11.20.50
+[2017.11.02-00.20.50:966][792]LogWorld: Bringing up level for play took: 0.003229
+[2017.11.02-00.20.50:969][792]PIE:Warning: Warning The widget 'WBCrosshair_C' was already added to the screen.
+[2017.11.02-00.20.50:978][792]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.516
+[2017.11.02-00.20.50:979][792]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.20.58:688][618]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.20.58:765][618]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.02-00.20.59:502][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2017.11.02-00.20.59:712][668]LogSavePackage: Save=204.14ms
+[2017.11.02-00.20.59:712][668]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/ThirdPersonCharacterF12E26BC4D7701C1A98982BD85C4F184.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.11.02-00.20.59:713][668]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.11.02-00.21.06:907][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2017.11.02-00.21.07:116][459]LogSavePackage: Save=203.21ms
+[2017.11.02-00.21.07:116][459]LogSavePackage: Moving '../../../../UE4MajorProject/ue4-soldier/Saved/ThirdPersonCharacterCB99210E49D6A1BE0AC24D97A52B41C3.tmp' to '../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.11.02-00.21.07:118][459]LogSavePackage:Display: Finished SavePackage ../../../../UE4MajorProject/ue4-soldier/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.11.02-00.21.37:219][269]LogUObjectArray:Warning: Other object in slot
+[2017.11.02-00.21.37:326][269]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.108 s
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: === Handled ensure: ===
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: 
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: Stack: 
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002C30E2B6
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002C0BB8C2
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002C0D1E86
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000018707556
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x0000000015ACD27B
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000014C624AA
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000014B072CC
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000014B0A6D9
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000014C28035
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000196BDB57
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000196C4B61
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000198E48D3
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000001971F604
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000196F77FC
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000196E814C
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002C3015B0
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002C2EB7D1
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002C3033DB
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002C2E7B22
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: USER32.dll!0x0000000054052434
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: USER32.dll!0x0000000054052297
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000002C303CE6
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor.exe!0x000000009552DB44
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor.exe!0x000000009551F0B0
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor.exe!0x000000009551F12A
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor.exe!0x0000000095530CF9
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: UE4Editor.exe!0x00000000955325F7
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: KERNEL32.DLL!0x0000000051F916AD
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: ntdll.dll!0x0000000054364409
+[2017.11.02-00.21.37:326][269]LogOutputDevice:Error: 
+[2017.11.02-00.21.37:334][269]LogStats:                SubmitErrorReport -  0.000 s
